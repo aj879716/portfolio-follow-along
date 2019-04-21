@@ -1,6 +1,7 @@
 header {
   font-size: 18pt;
   font-family: 'Playfair Display', serif;
+  display: flex;
 }
 
 #logo img {
@@ -11,21 +12,26 @@ header {
   flex: 1;
 }
 
-header .name {
+.name {
   text-align: center;
   width: 80%;
   display: inline-block;
   flex-grow: 8;
 }
 
-header .navbutton {
-  text-align: right;
-  flex: 1;
-}
-
-element.style {
+.style {
   display: none;
 }
+
+nav {
+  position: absolute;
+}
+
+.navButton {
+  flex: 1;
+  text-align: right;
+}
+
 
 nav ul {
   list-style: none;
@@ -53,7 +59,6 @@ p {
   height: 5%;
   width: auto;
   display: flex;
-
 }
 
 .main-imgs img {
