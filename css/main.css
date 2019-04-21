@@ -4,18 +4,16 @@ header {
   display: flex;
 }
 
-#logo img {
-  float: left;
-  height: 10%;
-  width: 10%;
-  display: inline;
+.logo {
   flex: 1;
+}
+
+.logo-img img {
+  width: 100%;
 }
 
 .name {
   text-align: center;
-  width: 80%;
-  display: inline-block;
   flex-grow: 8;
 }
 
@@ -24,7 +22,8 @@ header {
 }
 
 nav {
-  position: absolute;
+  position: relative;
+  flex: 1;
 }
 
 .navButton {
@@ -32,8 +31,7 @@ nav {
   text-align: right;
 }
 
-
-nav ul {
+nav ul{
   list-style: none;
   padding: 0%;
   right: 0%;
@@ -42,6 +40,15 @@ nav ul {
   font-size: 13pt;
   text-align: right;
   margin: 0%;
+}
+
+nav ul .menu{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  right: 0px;
+  text-align: right;
 }
 
 nav:hover ul {
@@ -69,14 +76,25 @@ p {
 
 main{
 min: 200px;
-border: 1px solid black;
+/*border: 1px solid black;*/
 }
 
 
 section {
 
-
 }
+
+.profile {
+  text-align: center;
+}
+
+.profile img {
+  margin-top: 10%;
+  width: 70%;
+  border-radius: 50%;
+}
+
+
 
 
 
@@ -91,6 +109,11 @@ footer .copy {
 
 footer .socialmedia {
   text-align: center;
+  padding: 0 .5rem;
+}
+
+.socialmedia i {
+  padding: 0 .5rem;
 }
 
 footer .contact {
