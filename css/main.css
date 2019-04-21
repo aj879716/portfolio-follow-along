@@ -20,17 +20,26 @@ header .name {
 
 header .navbutton {
   text-align: right;
-  float: right;
   flex: 1;
 }
 
-nav {
+element.style {
+  display: none;
+}
+
+nav ul {
   list-style: none;
+  padding: 0%;
+  right: 0%;
+  position: absolute;
+  display: none;
   font-size: 13pt;
-  flex-direction: row;
-  display: flex;
   text-align: right;
-  margin-left: 80%;
+  margin: 0%;
+}
+
+nav:hover ul {
+  display: block;
 }
 
 p {
@@ -53,9 +62,50 @@ p {
   margin: 7% 0% 7% 3%;
 }
 
+main{
+min: 200px;
+border: 1px solid black;
+}
+
+
+section {
+
+
+}
 
 
 
+footer {
+  text-align: center;
+  /*background-image: url("/img/footer.jpg");*/
+}
+
+footer .copy {
+  text-align: center;
+}
+
+footer .socialmedia {
+  text-align: center;
+}
+
+footer .contact {
+  text-align: center;
+}
+
+
+/*#footer-container {
+  height:10%;
+  width: 100%;
+  margin-top: -80%;
+  background-color: red;
+}
+
+#footer-img {
+  margin-top: 0%;
+  transform: rotate(90deg);
+
+}
+*/
 
 
 @media screen and (min-width: 900px) {
