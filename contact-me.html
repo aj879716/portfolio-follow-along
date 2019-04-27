@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/main.css"/>
+  <link href="" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+  <title>Sample Portfolio</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+    <a href="index.html"><div class="logo-img">
+  <img src="img/logo.png" alt="logo of bee"></div></a>
+</div>
+
+    <div class="name">Anna Johnston</div>
+
+    <nav onclick="$(.menu).toggle()">
+        <div class="navbutton">&#9776;</div>
+        <ul class="menu" style=display: none;>
+          <li><a href=index.html>Home</li></a>
+          <li><a href="gallery.html">Gallery</li></a>
+          <li><a href="img/resume.pdf">Resume</li></a>
+        </ul>
+    </nav>
+</header>
+
+<main>
+  <div class="container">
+    <form action="https://formspree.io/aj879716@ohio.edu.tld" method="POST"/>
+    <input type="hidden" name="_subject" value="New Submission!" />
+    <input type="text" name="_gotcha" class="hideMe" />
+
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name...">
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="usa">USA</option>
+        <option value="australia">Australia</option>
+          <option value="brazil">Brazil</option>
+        <option value="canada">Canada</option>
+        <option value="china">China</option>
+        <option value="laos">Laos</option>
+      </select>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Write a message..."></textarea>
+
+      <input type="submit" value="Send">
+      <input type="hidden" name="_next" value="thank-you.html"/>
+    </form>
+  </div>
+</main>
+
+
+</html>
