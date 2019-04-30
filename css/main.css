@@ -208,27 +208,7 @@ h3 {
 /*MOBILE*/
 @media only screen and (min-width: 800px) {
 
-  main{
-  min: auto;
-  /*border: 1px solid black;*/
-  }
-
-
 /* no matter how much i move the prfile image in the media query it wont move on the page to be in line with the parapgraph*/
-  .profile {
-    text-align: left;
-    margin-left: 10%;
-  }
-
- .about-me p {
-   flex: 1;
- }
-
-  .profile img {
-    margin-top: 20%;
-    width: 80%;
-    border-radius: 50%;
-  }
 
   footer {
     display: flex;
