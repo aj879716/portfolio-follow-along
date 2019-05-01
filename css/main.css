@@ -174,31 +174,30 @@ input[type=submit]:hover {
   display: none;
 }
 
-/*THANK YOU*/
-#thnk {
+/*THANK YOU- it used to work but now its decided to die*/
+
+.thnk {
   background-color: #4BE4EC;
-  width: 25%;
+  width: 50%;
   border-radius: 50%;
   padding: 5%;
-  margin-left: 32%;
+  margin-left: 20%;
 }
 
-h1{
+h2{
   font-family: 'Playfair Display', serif;
-  display: flex;
+  display: block;
   text-align: center;
-  font-size: 50pt;
-
+  flex-grow: 8;
+  font-size: 100pt;
 }
 
 h3 {
   font-family: 'Assistant', sans-serif;
   font-weight:lighter;
-  display: flex;
+  display: block;
   text-align: center;
   width: 80%;
-  margin-left: 8%;
-  margin-top: -7%;
 }
 
 .room {
@@ -228,13 +227,13 @@ h3 {
       flex: 1;
     }
 
-    #thnk {
+    .thnk {
       width: 50%;
       padding: 5%;
       margin-left: 32%;
     }
 
-    h1{
+    h2{
       display: block;
       font-size: 15pt;
     }
@@ -242,7 +241,7 @@ h3 {
 h3 {
   display: block;
   width: 80%;
-  margin-left: 8%;
+  margin-left: 10%;
   margin-top: -7%;
 }
 
